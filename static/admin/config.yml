@@ -24,7 +24,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: list, fields: [{label: Heading, name: heading, widget: markdown}, {label: Description, name: description, widget: markdown}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+      - {label: "Main", name: "main", widget: list, fields: [{label: Heading, name: heading, widget: markdown}, {label: Description, name: description, widget: markdown}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "blog2"
@@ -39,7 +39,7 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: list, fields: [{label: Heading, name: heading, widget: markdown}, {label: Description, name: description, widget: markdown}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
+      - {label: "Main", name: "main", widget: list, fields: [{label: Heading, name: heading, widget: markdown}, {label: Description, name: description, widget: markdown}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
       - {label: "Tags", name: "tags", widget: "list"}
 
   - name: "pages"
